@@ -22,3 +22,27 @@ A subset of image classification is object detection, where specific instances o
 3. Image used: File: Images > bmwi4_50.jpg
 
 ![image](https://user-images.githubusercontent.com/86708470/169081505-fe6b4237-add0-4deb-9747-c601a1645bfe.png)
+
+
+
+
+
+## Image Processing
+Image processing is a way to convert an image to a digital aspect and perform certain functions on it, in order to get an enhanced image or extract other useful information from it. It is a type of signal time when the input is an image, such as a video frame or image and output can be an image or features associated with that image. Usually, the Image Processing system includes treating images as two equal symbols while using the set methods used.
+
+It is one of the fastest growing technologies today, with its use in various business sectors. Graphic Design forms the core of the research space within the engineering and computer science industry as well. 
+
+Image processing basically involves the following three steps.
+Importing an image with an optical scanner or digital photography.
+Analysis and image management including data compression and image enhancement and visual detection patterns such as satellite imagery.
+It produces the final stage where the result can be changed to an image or report based on image analysis.
+Image processing is a way by which an individual can enhance the quality of an image or gather alerting insights from an image and feed it to an algorithm to predict the later things.
+
+
+
+(From Great Learning Team: https://www.mygreatlearning.com/blog/introduction-to-image-processing-what-is-image-processing/).
+
+### Result.
+Image used: File: Images > bmwi4_50.jpg
+
+![image](https://user-images.githubusercontent.com/86708470/169160123-3c7ade80-9386-4e71-bdcf-82b3933e0e16.png)
