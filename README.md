@@ -17,7 +17,7 @@ A subset of image classification is object detection, where specific instances o
 (From Stack Abuse: https://stackabuse.com/image-recognition-in-python-with-tensorflow-and-keras/).
 
 ### Result.
-1. It is recommended to save the "ipy" file in Google Drive and then run in Colab.
+1. It is recommended to save the "ipynb" file in Google Drive and then run in Colab.
 2. Running on "http://8dea-35-236-139-140.ngrok.io"
 3. Image used: File: Images > bmwi4_50.jpg
 
