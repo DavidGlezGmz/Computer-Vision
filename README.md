@@ -38,11 +38,24 @@ Analysis and image management including data compression and image enhancement a
 It produces the final stage where the result can be changed to an image or report based on image analysis.
 Image processing is a way by which an individual can enhance the quality of an image or gather alerting insights from an image and feed it to an algorithm to predict the later things.
 
-
-
 (From Great Learning Team: https://www.mygreatlearning.com/blog/introduction-to-image-processing-what-is-image-processing/).
 
 ### Result.
 Image used: File: Images > bmwi4_50.jpg
 
 ![image](https://user-images.githubusercontent.com/86708470/169160123-3c7ade80-9386-4e71-bdcf-82b3933e0e16.png)
+
+
+
+
+
+
+  ## Image Clasification
+Image classification refers to a process in computer vision that can classify an image according to its visual content. For example, an image classification algorithm can be designed to tell if an image contains a cat or a dog.
+
+Getting an intuition of how a neural network recognizes images will help you when you are implementing a neural network model, so let's briefly explore the image recognition process in the next few sections.
+
+This section is meant to serve as a crash course/primer on Convolutional Neural Networks, as well as a refresher for those familiar with them.
+
+### Result.
+![image](https://user-images.githubusercontent.com/86708470/169176558-2fe0b411-387a-4b80-8b81-ecf661dad6c1.png)
