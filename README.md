@@ -90,3 +90,16 @@ FLANN (Fast Library for Approximate Nearest Neighbors) is an image matching algo
 ### Result.
 ![image](https://user-images.githubusercontent.com/86708470/169873426-f7779639-af47-471d-bf45-cccb762676af.png)
 
+
+
+
+
+
+ ## Homography
+Note that the homography matrix is a mapping between two planes. We have considered it here as a mapping from the image plane to a physical plane, but it could map between two image planes. The inverse of a homography will also provide the reverse mapping between the two planes.
+
+The RANdom SAmple Consensus (RANSAC) algorithm proposed by Fischler and Bolles is a general parameter estimation approach designed to cope with a large proportion of outliers in the input data. Unlike many of the common robust estimation techniques such as M-estimators and least-median squares that have been adopted by the computer vision community from the statistics literature
+
+### Result.
+![image](https://user-images.githubusercontent.com/86708470/169875989-36d8764d-e1e0-48f8-8e47-ef9a898434a5.png)
+
