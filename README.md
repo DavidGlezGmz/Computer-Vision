@@ -98,8 +98,19 @@ FLANN (Fast Library for Approximate Nearest Neighbors) is an image matching algo
  ## Homography
 Note that the homography matrix is a mapping between two planes. We have considered it here as a mapping from the image plane to a physical plane, but it could map between two image planes. The inverse of a homography will also provide the reverse mapping between the two planes.
 
-The RANdom SAmple Consensus (RANSAC) algorithm proposed by Fischler and Bolles is a general parameter estimation approach designed to cope with a large proportion of outliers in the input data. Unlike many of the common robust estimation techniques such as M-estimators and least-median squares that have been adopted by the computer vision community from the statistics literature
+The RANdom SAmple Consensus (RANSAC) algorithm proposed by Fischler and Bolles is a general parameter estimation approach designed to cope with a large proportion of outliers in the input data. Unlike many of the common robust estimation techniques such as M-estimators and least-median squares that have been adopted by the computer vision community from the statistics literature.
 
 ### Result.
 ![image](https://user-images.githubusercontent.com/86708470/169875989-36d8764d-e1e0-48f8-8e47-ef9a898434a5.png)
 
+
+
+
+
+ ## Skeletons
+In shape analysis, skeleton (or topological skeleton) of a shape is a thin version of that shape that is equidistant to its boundaries. The skeleton usually emphasizes geometrical and topological properties of the shape, such as its connectivity, topology, length, direction, and width. Together with the distance of its points to the shape boundary, the skeleton can also serve as a representation of the shape (they contain all the information necessary to reconstruct the shape).
+
+Skeletons have several different mathematical definitions in the technical literature, and there are many different algorithms for computing them. Various different variants of skeleton can also be found, including straight skeletons, morphological skeletons, etc.
+
+### Result.
+![image](https://user-images.githubusercontent.com/86708470/169878415-82176212-8617-4513-b4d3-633debab2b90.png)
