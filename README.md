@@ -59,3 +59,34 @@ This section is meant to serve as a crash course/primer on Convolutional Neural 
 
 ### Result.
 ![image](https://user-images.githubusercontent.com/86708470/169176558-2fe0b411-387a-4b80-8b81-ecf661dad6c1.png)
+
+
+
+
+
+## Feature Extraction
+Feature extraction refers to the process of transforming raw data into numerical features that can be processed while preserving the information in the original data set. We have SIFT, SURF, ORB and other techniques to get keypoints.
+
+Scale Invariant Feature Transform (SIFT) is a feature detector developed by Lowe in 2004. Although SIFT has proven to be very efficient in object recognition applications, it requires a large computational complexity which is a major drawback especially for real-time applications. There are several variants and extension of SIFT which have improved its computational complexity.
+
+Speed up Robust Feature (SURF) technique, which is an approximation of SIFT, performs faster than SIFT without reducing the quality of the detected points. Both SIFT and SURF are thus based on a descriptor and a detector. Binary Robust Independent Elementary Features (BRIEF) is another alternative for SIFT which requires less complexity than SIFT with almost similar matching performance.
+
+Oriented FAST and Rotated BRIEF (ORB) as another efficient alternative for SIFT and SURF.
+
+### Result.
+![image](https://user-images.githubusercontent.com/86708470/169873340-340b86f1-626c-495e-8043-76957fabe5bc.png)
+
+
+
+
+
+ ## Feature Matching
+The basic idea of feature matching is to calculate the sum square difference between two different feature descriptors.
+
+In brute-force matcher we have to match descriptor of all features in an image to descriptors of all features in another image. It is extremely expensive as we know any brute-force algorithm will guarantee getting a solution, but doesn’t guarantee getting optimal solution.
+
+FLANN (Fast Library for Approximate Nearest Neighbors) is an image matching algorithm for fast approximate nearest neighbor searches in high dimensional spaces. These methods project the high-dimensional features to a lower-dimensional space and then generate the compact binary codes.
+
+### Result.
+![image](https://user-images.githubusercontent.com/86708470/169873426-f7779639-af47-471d-bf45-cccb762676af.png)
+
