@@ -114,3 +114,17 @@ Skeletons have several different mathematical definitions in the technical liter
 
 ### Result.
 ![image](https://user-images.githubusercontent.com/86708470/169878415-82176212-8617-4513-b4d3-633debab2b90.png)
+
+
+
+
+
+
+
+ ## Fruts and Vegatables Classification
+Fruit and vegetables classification system using image saliency to draw the object regions and convolutional neural network (CNN) model to extract image features and implement classification. Image saliency is utilized to select main saliency regions according to saliency map. A VGG model is chosen to train for fruit and vegetables classification. 
+
+### Result.
+![image](https://user-images.githubusercontent.com/86708470/169934222-8890ddbd-4a9d-4cfa-9fca-f5cb0d6bb3a5.png)
+![image](https://user-images.githubusercontent.com/86708470/169934251-977cac58-cd40-4590-b48d-2e76e662fd61.png)
+
